@@ -28,7 +28,7 @@ public class ConsumerWithThread {
         Logger logger = LoggerFactory.getLogger(ConsumerWithThread.class.getName());
 
         String bootstrapServers = "127.0.0.1:9092";
-        String groupId = "my-sixth-application";
+        String groupId = "test-application-6";
         String topic = "first_topic";
 
         // latch for dealing with multiple threads
