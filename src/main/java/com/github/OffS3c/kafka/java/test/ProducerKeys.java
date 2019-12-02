@@ -8,11 +8,11 @@ import org.slf4j.LoggerFactory;
 import java.util.Properties;
 import java.util.concurrent.ExecutionException;
 
-public class ProducerDemoKeys {
+public class ProducerKeys {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
 
-        final Logger logger = LoggerFactory.getLogger(ProducerDemoKeys.class);
+        final Logger logger = LoggerFactory.getLogger(ProducerKeys.class);
 
         String bootstrapServers = "127.0.0.1:9092";
 

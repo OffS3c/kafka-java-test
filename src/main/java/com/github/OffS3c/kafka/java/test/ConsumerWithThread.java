@@ -14,18 +14,18 @@ import java.util.Arrays;
 import java.util.Properties;
 import java.util.concurrent.CountDownLatch;
 
-public class ConsumerDemoWithThread {
+public class ConsumerWithThread {
 
     public static void main(String[] args) {
-        new ConsumerDemoWithThread().run();
+        new ConsumerWithThread().run();
     }
 
-    private ConsumerDemoWithThread() {
+    private ConsumerWithThread() {
 
     }
 
     private void run() {
-        Logger logger = LoggerFactory.getLogger(ConsumerDemoWithThread.class.getName());
+        Logger logger = LoggerFactory.getLogger(ConsumerWithThread.class.getName());
 
         String bootstrapServers = "127.0.0.1:9092";
         String groupId = "my-sixth-application";

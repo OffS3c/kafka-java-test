@@ -7,11 +7,11 @@ import org.slf4j.LoggerFactory;
 
 import java.util.Properties;
 
-public class ProducerDemoWithCallback {
+public class ProducerWithCallback {
 
     public static void main(String[] args) {
 
-        final Logger logger = LoggerFactory.getLogger(ProducerDemoWithCallback.class);
+        final Logger logger = LoggerFactory.getLogger(ProducerWithCallback.class);
 
         String bootstrapServers = "127.0.0.1:9092";
 
